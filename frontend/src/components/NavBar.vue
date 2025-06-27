@@ -10,7 +10,7 @@ const sendContact = () => {
 // }
 
 const openResume = () => {
-  window.open('/sai_soorya_marri_resume_2025.pdf', '_blank');
+  window.open('/sai_soorya_resume_2025_comb.pdf', '_blank');
 }
 
 const visible = ref(true)
