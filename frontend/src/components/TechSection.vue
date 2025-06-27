@@ -60,8 +60,13 @@
               <span>FastAPI</span>
             </div>
             <div class="tech-item">
-              <img src="/assets/Flask.svg" alt="Flask" class="tech-icon"/>
+              <img src="/assets/flask.png" alt="Flask" class="tech-icon"/>
               <span>Flask</span>
+            </div>
+
+            <div class="tech-item">
+              <img src="/assets/Ai Agent.png" alt="Next" class="tech-icon"/>
+              <span>AI Agent</span>
             </div>
           </div>
           <div class="tech-column">
@@ -77,7 +82,16 @@
               <img src="/assets/tailwind.svg" alt="Next" class="tech-icon"/>
               <span>Tailwind</span>
             </div>
-            
+
+            <div class="tech-item">
+              <img src="/assets/Langchain.png" alt="Next" class="tech-icon"/>
+              <span>LangChain</span>
+            </div>
+
+            <div class="tech-item">
+              <img src="/assets/rag.jpg" alt="Next" class="tech-icon"/>
+              <span>RAG</span>
+            </div>
           </div>
         </div>
       </div>

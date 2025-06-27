@@ -60,27 +60,29 @@ import ProjectComponent from '@/components/ProjectComponent.vue'
 
 
     <!-- Project 3-->
-    <!-- <ProjectComponent
-    title="findit."
-      :description="[
-        'findit. is an intelligent shopping assistant designed to guide users through the decision-making process.',
-        'Interacting with the natural language chatbot, users can specify their needs, getting back 3-5 specific product recommendations.'
-      ]"
-      :technologies="[
-        { name: 'Vue.js' },
-        { name: 'JavaScript' },
-        { name: 'Python' },
-        { name: 'FastAPI' },
-        { name: 'MongoDB' }
-      ]"
-      imageSrc="/assets/findit.png"
-      imageAlt="findit. project"
-      gradientStart="rgb(211,133,209,0.8)"
-      gradientEnd="rgba(176,133,226,0.8)"
-      githubLink="https://github.com/ZacharyHampton/sunhacks-2024"
-      devpostLink="https://devpost.com/software/findit-lhqfgr"
-      youtubeLink="https://www.youtube.com/watch?v=18lt6lk4K2E&ab_channel=SBBillusionist"
-    /> -->
+    <ProjectComponent
+        title="AI Agent and Q&A Bot"
+        :description="[
+          'This project comprises two AI-powered chatbots built with Streamlit and FastAPI, leveraging the Groq API and using LLaMA-3.3-70B model',
+          ' The AI Agent Search employs a ReAct AI agent to answer general queries using DuckDuckGo, Wikipedia, and Arxiv tools, streaming responses in real-time',
+          'The PDF Q and A Chatbot processes uploaded PDFs for context-aware question-answering via a RAG pipeline with Chroma as vector store and HuggingFace embeddings'
+        ]"
+        :technologies="[
+          { name: 'Langchain' },
+          { name: 'FastAPI' },
+          { name: 'Streamlit' },
+          { name: 'Agent AI' },
+          { name: 'RAG' }
+       
+        ]"
+        gradientStart="rgba(88,94,240,0.7)"
+        gradientEnd="rgba(40,47,150,1)"
+        imageSrc="/assets/image_for_AI_agent_QA_bot.png"
+        imageAlt="AI Agent QA Bot"
+        githubLink="https://github.com/M-SAI-SOORYA/Agent-and-QA-Bot"
+        VideoLink="https://drive.google.com/file/d/1dTo_w5p0ew-69ZuwDE_w50estl4LTltk/view"
+      />
+
     </div>
   </section>
 </template>
