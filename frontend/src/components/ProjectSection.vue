@@ -77,7 +77,7 @@ import ProjectComponent from '@/components/ProjectComponent.vue'
         ]"
         gradientStart="rgba(88,94,240,0.7)"
         gradientEnd="rgba(40,47,150,1)"
-        imageSrc="/assets/image_for_AI_agent_QA_bot.png"
+        imageSrc="/assets/ai-blog-2.png.jpg"
         imageAlt="AI Agent QA Bot"
         githubLink="https://github.com/M-SAI-SOORYA/Agent-and-QA-Bot"
         VideoLink="https://drive.google.com/file/d/1dTo_w5p0ew-69ZuwDE_w50estl4LTltk/view"
