@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 const openLinkedIN = () => {
-  window.location.href = 'https://www.linkedin.com/in/sai-soorya-marri-466086233/'
+  window.location.href = 'https://www.linkedin.com/in/soorya-marri-466086233/'
 }
 </script>
 

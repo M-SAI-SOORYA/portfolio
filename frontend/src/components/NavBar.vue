@@ -10,7 +10,7 @@ const sendContact = () => {
 // }
 
 const openResume = () => {
-  window.open('/sai_soorya_resume_2025_comb.pdf', '_blank');
+  window.open('/sai_soorya_marri_resume_2025.pdf', '_blank');
 }
 
 const visible = ref(true)
@@ -36,7 +36,7 @@ const visible = ref(true)
       <a href="https://github.com/M-SAI-SOORYA" target="_blank" class="nav-button">
         <i class="icon github-icon"></i>
       </a>
-      <a href="https://www.linkedin.com/in/sai-soorya-marri-466086233/" target="_blank" class="nav-button">
+      <a href="https://www.linkedin.com/in/soorya-marri-466086233/" target="_blank" class="nav-button">
         <i class="icon linkedin-icon"></i>
       </a>
     </div>
