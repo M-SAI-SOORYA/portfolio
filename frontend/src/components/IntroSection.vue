@@ -6,7 +6,7 @@ import AOS from 'aos'
 const router = useRouter()
 
 const openResume = () => {
-  window.open('/sai_soorya_marri_resume_2025.pdf', '_blank');
+  window.open('/soorya_marri_resume_2025.pdf', '_blank');
 }
 
 const goToBlog = () => {
